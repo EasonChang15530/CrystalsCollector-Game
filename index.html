@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Word Guess Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Lobster|Modak|Pacifico|Permanent+Marker|Satisfy|Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header class="welcome">
+    <h1>CrystalsCollector Game</h1>
+    <br>
+  </header>
+
+  <main>
+
+    <section class="scoreboard">
+      <div class="wins">
+        <h4>Wins</h4>
+        <h4 id="winCounter"></h4>
+      </div>
+
+      <div class="losses">
+        <h4>Losses</h4>
+        <h4 id="lossCounter"></h4>
+      </div>
+    </section>
+
+    <section class="main-section">
+      
+      <img id="btn1" src="assets/images/bluecrystal.png" alt="bluecrystal">
+      
+      <img id="btn2" src="assets/images/greencrystal.png" alt="greencrystal">
+      
+      <img id="btn3" src="assets/images/purplecrystal.png" alt="purplecrystal">
+      
+      <img id="btn4" src="assets/images/redcrystal.png" alt="redcrystal">
+        
+    </section>
+
+
+    <section class="record">
+
+      <h4>Random Number <span id="randomNumber"></span></h4>
+      <h4>Your Score <span id="scoreCounter"></span></h4>
+      <br>
+
+    </section>
+
+  </main>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  
+</body>
+
+</html>
