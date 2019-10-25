@@ -17,5 +17,5 @@
       Each crystal's value changes each time the game starts.
   </p>
   <p>
-      https://easonchang15530.github.io/unit-4-game/ Try it!
+      https://easonchang15530.github.io/CrystalsCollector-Game/ Try it!
   </p>
